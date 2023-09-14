@@ -15,10 +15,6 @@ public class UserDTO {
 
     public UserDTO(User user) {
         name = user.getName();
-        for(Document document : user.getDocuments()){
-            System.out.println(name);
-            System.out.println(document.getName());
-        }
         documents = user.getDocuments().stream().map(document -> new DocumentDTO(document)).toList();
     }
 
