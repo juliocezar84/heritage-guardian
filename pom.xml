@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.mackenzie</groupId>
-	<artifactId>heritage-guardian</artifactId>
+	<artifactId>heritage_guardian_backend</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>heritage-guardian</name>
 	<description>Heritage Guardian</description>
